@@ -1,0 +1,2 @@
+# loserStarPoeAhkScript
+本人自用的autoHotKey的脚本库，以及收集的一些相关脚本片段
