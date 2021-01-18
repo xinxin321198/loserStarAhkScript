@@ -1,2 +1,2 @@
 # loserStarAhkScript
-本人自用的autoHotKey的脚本库，以及收集的一些相关脚本片段,目前只有poe的相关脚本
+本人自用的autoHotKey的脚本库，用来玩耍流放之路的必备脚本
