@@ -16,13 +16,13 @@ $XButton1::
     {
         ; 关闭定时器
         SetTimer, loserStar_run, Off	 
-        TrayTip, , begin end, 3, 17	
+        ; TrayTip, , begin end, 3, 17	
     }
     ELSE
     {
         ; 启动定时器
         SetTimer, loserStar_run, on	 
-        TrayTip, , end, 3, 17 
+        ; TrayTip, , end, 3, 17 
     }
 }Return
 
@@ -32,7 +32,7 @@ loserStar_run:
     ; 自由发挥需要执行什么操作，
     Send , ^{q}
     ; 执行的周期（毫秒）
-    Sleep, 1000
+    Sleep, 100
 }
 Return
 
@@ -48,7 +48,7 @@ Send {2}
 Send {3}
 Send {4}
 Send {5}
-Send {e}
+Send {t}
 Return
 
 /*
