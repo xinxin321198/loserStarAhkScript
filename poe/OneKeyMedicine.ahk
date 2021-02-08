@@ -13,3 +13,7 @@ Send {e}
 Send {r}
 Send {t}
 Return
+
+$XButton1::
+Send {q}
+Return
