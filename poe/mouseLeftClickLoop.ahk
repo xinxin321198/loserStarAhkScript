@@ -1,7 +1,7 @@
 /*
 左键连点器，存通货用，ctrl+左键开启，再次点击关闭
 */
-#If WinActive("ahk_exe PathOfExile_x64.exe") or WinActive("ahk_exe PathOfExile.exe")
+/*#If WinActive("ahk_exe PathOfExile_x64.exe") or WinActive("ahk_exe PathOfExile.exe")*/
 ^LButton::
 	Sleeptime := 50 		; 延迟
 	Toggle := !Toggle		; 开关
